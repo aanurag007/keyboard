@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #4fb0d5;
+      }
+      #rect {
+        width: 70%;
+        height: 40vh;
+        background-color: black;
+        border-radius: 10px;
+        position: fixed;
+        top: 30%;
+        left: 20%;
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+        color: #4fb0d5;
+        grid-template-columns: repeat(12, 1fr);
+      }
+      #rect > div {
+        background-color: #2f3337;
+        border: 2px solid white;
+        font-size: 20px white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #en,
+      #sh {
+        grid-column: 11 / span 2;
+      }
+      #sp {
+        grid-column: 5 / span 4;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rect">
+      <div>~</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>0</div>
+      <div>del</div>
+      <div>tab</div>
+      <div>q</div>
+      <div>w</div>
+      <div>e</div>
+      <div>r</div>
+      <div>t</div>
+      <div>y</div>
+      <div>u</div>
+      <div>i</div>
+      <div>o</div>
+      <div>p</div>
+      <div>/</div>
+      <div>caps</div>
+      <div>a</div>
+      <div>s</div>
+      <div>d</div>
+      <div>f</div>
+      <div>g</div>
+      <div>h</div>
+      <div>j</div>
+      <div>k</div>
+      <div>l</div>
+      <div id="en">enter</div>
+      <div>shft</div>
+      <div>z</div>
+      <div>x</div>
+      <div>c</div>
+      <div>v</div>
+      <div>b</div>
+      <div>n</div>
+      <div>m</div>
+      <div><-</div>
+      <div>-></div>
+      <div id="sh">shft</div>
+      <div><i class="fa-solid fa-globe"></i></div>
+      <div>ctrl</div>
+      <div>opt</div>
+      <div>alt</div>
+      <div id="sp">space</div>
+      <div>alt</div>
+      <div>opt</div>
+      <div><-</div>
+      <div>-></div>
+    </div>
+  </body>
+</html>
